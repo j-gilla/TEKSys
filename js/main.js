@@ -3,8 +3,6 @@ function getChange(cost, payment) {
   let res={};
   let change = payment - cost;
   let penceLeft = +change.toFixed(2) * 100;
-  console.log(penceLeft)
-
 
   let amounts = [1000,200,50,10,5,1];
 
@@ -15,8 +13,6 @@ function getChange(cost, payment) {
   });
   return res;
 };
-
-console.log(getChange(9.99, 10))
 
 if(typeof module !== 'undefined') {
   module.exports = getChange;

@@ -2,7 +2,7 @@
 Q1.
 Write a function where it takes in the cost, and the payment, and then return an object of the change in UK coins and notes.
 
-e.g. getChange(5.34, 20) returns
+e.g.  returns
 {
 1000: 1,
 200: 2

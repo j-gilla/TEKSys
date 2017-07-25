@@ -11,7 +11,7 @@ function getChange(cost, payment) {
     penceLeft = (penceLeft % el)
     return res;
   });
-  return res;
+  return ans;
 };
 
 if(typeof module !== 'undefined') {
